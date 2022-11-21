@@ -9,7 +9,7 @@ trigger:
 pool:
   name: Default
   demands:
-   - agent.name -equals linuxtestagent
+   - agent.version -equals 2.166.4
 
 steps:
 - task: Maven@3
